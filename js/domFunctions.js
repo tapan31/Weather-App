@@ -90,26 +90,26 @@ const updateIcon = (iconName) => {
 
   switch (iconName) {
     case "Clear":
-      img.setAttribute("src", "../Project/img/clear.png");
+      img.setAttribute("src", "./img/clear.png");
       break;
     case "Clouds":
-      img.setAttribute("src", "../Project/img/clouds.png");
+      img.setAttribute("src", "./img/clouds.png");
       break;
     case "Drizzle":
-      img.setAttribute("src", "../Project/img/drizzle.png");
+      img.setAttribute("src", "./img/drizzle.png");
       break;
     case "Snow":
-      img.setAttribute("src", "../Project/img/snow.png");
+      img.setAttribute("src", "./img/snow.png");
       break;
     case "Mist":
-      img.setAttribute("src", "../Project/img/mist.png");
+      img.setAttribute("src", "./img/mist.png");
       break;
     case "Rain":
-      img.setAttribute("src", "../Project/img/rain.png");
+      img.setAttribute("src", "./img/rain.png");
       break;
 
     default:
-      img.setAttribute("src", "../Project/img/clear.png");
+      img.setAttribute("src", "./img/clear.png");
       break;
   }
 
