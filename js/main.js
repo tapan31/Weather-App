@@ -58,6 +58,7 @@ const geoError = (errObj) => {
     ? "Please allow access to location"
     : "GeoLocation Not Supported";
   // console.log(errMsg);
+  loader();
   displayError(errMsg);
 };
 
